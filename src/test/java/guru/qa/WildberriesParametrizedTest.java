@@ -59,7 +59,6 @@ public class WildberriesParametrizedTest {
                 Arguments.of("Bosch", asList("Bosch")),
                 Arguments.of("Acer", asList("Bosch", "Iphone"))
         );
-
     }
 
     @MethodSource(value = "wbTestStream")
